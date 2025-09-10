@@ -195,7 +195,6 @@ export const MobileNavMenu = ({
   children,
   className,
   isOpen,
-  onClose,
 }: MobileNavMenuProps) => {
   return (
     <AnimatePresence>
@@ -263,7 +262,7 @@ export const NavbarLogo = () => {
   return (
     <div className="flex items-center space-x-2">
       <LuAlarmClock size={24} className="text-white animate-bounce" />
-      <span className="font-bold text-xl text-white">04:26 PM (IST)</span>
+      <span className="font-bold text-xl text-white">{time} (IST)</span>
     </div>
   );
 };
