@@ -1,5 +1,4 @@
 "use client";
-import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import {
   Navbar,
@@ -15,12 +14,13 @@ import {
 import LightRays from "./components/LightRays";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import About from "./pages/About";
+import { useState } from "react";
 
 const navItems = [
   { name: "Home", link: "/" },
   { name: "Projects", link: "/projects" },
   { name: "About", link: "/about" },
-  { name: "Contact", link: "/contact" },
 ];
 
 const App = () => {
@@ -100,6 +100,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/about" element={<About />} />
         {/* Add more routes as needed */}
       </Routes>
     </div>

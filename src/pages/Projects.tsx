@@ -1,4 +1,3 @@
-import React from "react";
 import { BentoGrid, BentoGridItem } from "../components/bento";
 import { IconBrandGithub } from "@tabler/icons-react";
 import { TextGenerateEffect } from "../components/ui/text-generate-effect";
@@ -190,13 +189,13 @@ const Projects = () => {
         </p>
         <div className="mt-6 flex justify-center gap-4">
           <a
-            href="mailto:ketangoyal0001@gmail.com"
+            href="mailto:goyalketan1317@gmail.com"
             className=" text-white px-5 py-2 rounded-full shadow-md hover:bg-red-700 hover:scale-105 transition-all duration-300 text-sm font-semibold"
           >
             📩 Contact Me
           </a>
           <a
-            href="https://www.linkedin.com/in/ketan-goyal-5b44452b2/"
+            href="www.linkedin.com/in/ketan-goyal-117368324"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-black text-white px-5 py-2 rounded-full shadow-md hover:bg-gray-800 hover:scale-105 transition-all duration-300 text-sm font-semibold"
