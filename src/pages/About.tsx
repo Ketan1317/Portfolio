@@ -1,4 +1,3 @@
-import React from "react";
 import Contact from "../components/ui/wobble-card";
 import MarqueeRow from "../components/Marquee";
 import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect";

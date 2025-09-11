@@ -1,6 +1,5 @@
 import { TypewriterEffectSmooth } from "../components/ui/typewriter-effect";
 import { FlipWords } from "../components/ui/flip-words";
-import Masonry from "../components/Masonry";
 import { BentoGrid, BentoGridItem } from "../components/ui/bento-grid";
 import {
   IconArrowWaveRightUp,
@@ -29,17 +28,7 @@ import cgpa from "../assets/cgpa.jpg";
 import deca from "../assets/deca.jpg"
 import dnt from "../assets/dnt.jpg"
 
-import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img2.jpg";
-import img3 from "../assets/img3.jpg";
-import img4 from "../assets/img4.jpg";
-import img5 from "../assets/img5.jpg";
-import img6 from "../assets/img6.jpg";
-import img7 from "../assets/img7.jpg";
-import img8 from "../assets/img8.jpg";
-import img9 from "../assets/img9.jpg";
-import img10 from "../assets/img10.jpg";
-import img11 from "../assets/img11.jpg";
+
 
 const links = [
   {
@@ -132,19 +121,7 @@ const Home = () => {
   const word = ["better", "cooler", "cuter", "funnier"];
   const word3 = ["Web3", "DSA in Java", "Hackathons", "Innovation"];
 
-  const items = [
-    { id: "1", img: img1, url: "#", height: 500 },
-    { id: "2", img: img2, url: "#", height: 250 },
-    { id: "3", img: img3, url: "#", height: 600 },
-    { id: "4", img: img4, url: "#", height: 500 },
-    { id: "5", img: img5, url: "#", height: 450 },
-    { id: "6", img: img6, url: "#", height: 400 },
-    { id: "7", img: img7, url: "#", height: 650 },
-    { id: "8", img: img8, url: "#", height: 600 },
-    { id: "9", img: img9, url: "#", height: 600 },
-    { id: "10", img: img10, url: "#", height: 500 },
-    { id: "11", img: img11, url: "#", height: 450 },
-  ];
+ 
 
   
   const items1 = [

@@ -1,4 +1,3 @@
-import React from "react";
 import { Github } from "lucide-react";
 import img1 from "../../assets/leet.png";
 import img2 from "../../assets/instagram.jpg";
