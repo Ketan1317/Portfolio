@@ -26,6 +26,8 @@ import techabhi from "../assets/techabhi.jpeg";
 import leetcode from "../assets/leetcode.jpg";
 import nit from "../assets/nit.jpg";
 import cgpa from "../assets/cgpa.jpg";
+import deca from "../assets/deca.jpg"
+import dnt from "../assets/dnt.jpg"
 
 import img1 from "../assets/img1.jpg";
 import img2 from "../assets/img2.jpg";
@@ -204,7 +206,7 @@ const Home = () => {
       "Contributed to open-source projects, collaborating with global developers and learning best practices.",
     header: (
       <img
-        src={techabhi}
+        src={dnt}
         alt="Open Source"
         className="w-full h-40 object-cover rounded-xl"
       />
@@ -217,7 +219,7 @@ const Home = () => {
       "Completed workshops and certifications in Web Development, DevOps, and AI/ML to expand technical expertise.",
     header: (
       <img
-        src={techabhi}
+        src={deca}
         alt="Certifications"
         className="w-full h-40 object-cover rounded-xl"
       />
@@ -230,7 +232,7 @@ const Home = () => {
       "Actively engage in coding communities, mentoring juniors, and organizing peer-to-peer learning sessions.",
     header: (
       <img
-        src={techabhi}
+        src={nit}
         alt="Community"
         className="w-full h-40 object-cover rounded-xl"
       />
@@ -294,7 +296,7 @@ const Home = () => {
       </div>
 
       {/* Gallery Section */}
-      <div className="w-full max-w-6xl">
+      {/* <div className="w-full max-w-6xl">
         <Masonry
           items={items}
           ease="power3.out"
@@ -306,9 +308,9 @@ const Home = () => {
           blurToFocus={true}
           colorShiftOnHover={false}
         />
-      </div>
+      </div> */}
 
-      <div className="relative mt-[85vh]">
+      <div className="relative mt-[5vh]">
         <div className="my-20">
           <TypewriterEffectSmooth
             className="flex items-center justify-center"
